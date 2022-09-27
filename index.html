@@ -37,6 +37,11 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+    <style>
+      #slider .img-fluid {
+        height: 800px !important;
+      }
+    </style>
   </head>
 
   <body>
@@ -63,9 +68,14 @@
         href="index.html"
         class="navbar-brand d-flex align-items-center px-4 px-lg-5"
       >
-        <h2 class="m-0 text-primary">
+        <!-- <h2 class="m-0 text-primary">
           <i class="fa fa-book me-3"></i>eLEARNING
-        </h2>
+        </h2> -->
+        <img
+          class="border p-2 mx-4 mb-3"
+          src="./assets/ircLogo2.png"
+          style="width: 60px; height: 60px"
+        />
       </a>
       <button
         type="button"
@@ -79,7 +89,7 @@
         <div class="navbar-nav ms-auto p-4 p-lg-0">
           <a href="index.html" class="nav-item nav-link active">Home</a>
           <a href="#about" class="nav-item nav-link">About</a>
-          <a href="#courses" class="nav-item nav-link">Courses</a>
+          <a href="#courses" class="nav-item nav-link">Videos</a>
           <a href="#instructors" class="nav-item nav-link">Instructors</a>
           <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
           <a href="#footer" class="nav-item nav-link">Contact</a>
@@ -106,10 +116,10 @@
     <!-- Navbar End -->
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
+    <div id="slider" class="container-fluid p-0 mb-5">
       <div class="owl-carousel header-carousel position-relative">
         <div class="owl-carousel-item position-relative">
-          <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+          <img class="img-fluid" src="./assets/Banner-1.jpeg" alt="" />
           <div
             class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
             style="background: rgba(24, 29, 56, 0.7)"
@@ -120,15 +130,14 @@
                   <h5
                     class="text-primary text-uppercase mb-3 animated slideInDown"
                   >
-                    Best Online Courses
+                    IRC
                   </h5>
                   <h1 class="display-3 text-white animated slideInDown">
-                    The Best Online Learning Platform
+                    Islamic Research Centre
                   </h1>
                   <p class="fs-5 text-white mb-4 pb-2">
-                    Vero elitr justo clita lorem. Ipsum dolor at sed stet sit
-                    diam no. Kasd rebum ipsum et diam justo clita et kasd rebum
-                    sea sanctus eirmod elitr.
+                    Education & Welfare Trust Is A Registered NGO / Non-Profit
+                    Organization.
                   </p>
                   <a
                     href=""
@@ -146,7 +155,7 @@
           </div>
         </div>
         <div class="owl-carousel-item position-relative">
-          <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+          <img class="img-fluid" src="./assets/Banner-2.jpeg" alt="" />
           <div
             class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
             style="background: rgba(24, 29, 56, 0.7)"
@@ -157,15 +166,85 @@
                   <h5
                     class="text-primary text-uppercase mb-3 animated slideInDown"
                   >
-                    Best Online Courses
+                    IRC
                   </h5>
                   <h1 class="display-3 text-white animated slideInDown">
-                    Get Educated Online From Your Home
+                    REACHES MILLIONS OF PEOPLE
                   </h1>
                   <p class="fs-5 text-white mb-4 pb-2">
-                    Vero elitr justo clita lorem. Ipsum dolor at sed stet sit
-                    diam no. Kasd rebum ipsum et diam justo clita et kasd rebum
-                    sea sanctus eirmod elitr.
+                    RC Uses Modern Technology For Its Activities Wherever
+                    Feasible
+                  </p>
+                  <a
+                    href=""
+                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                    >Read More</a
+                  >
+                  <a
+                    href=""
+                    class="btn btn-light py-md-3 px-md-5 animated slideInRight"
+                    >Join Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel-item position-relative">
+          <img class="img-fluid" src="./assets/Banner-3.jpeg" alt="" />
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: rgba(24, 29, 56, 0.7)"
+          >
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-sm-10 col-lg-8">
+                  <h5
+                    class="text-primary text-uppercase mb-3 animated slideInDown"
+                  >
+                    IRC - VISION
+                  </h5>
+                  <h1 class="display-3 text-white animated slideInDown">
+                    IRC Aims To Help Poor & Needy In The Field Of
+                  </h1>
+                  <p class="fs-5 text-white mb-4 pb-2">
+                    Education, Health, Employment, Skill Development &
+                    Charitable Causes.
+                  </p>
+                  <a
+                    href=""
+                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                    >Read More</a
+                  >
+                  <a
+                    href=""
+                    class="btn btn-light py-md-3 px-md-5 animated slideInRight"
+                    >Join Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel-item position-relative">
+          <img class="img-fluid" src="./assets/Banner-4.jpeg" alt="" />
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: rgba(24, 29, 56, 0.7)"
+          >
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-sm-10 col-lg-8">
+                  <h5
+                    class="text-primary text-uppercase mb-3 animated slideInDown"
+                  >
+                    IRC
+                  </h5>
+                  <h1 class="display-3 text-white animated slideInDown">
+                    Islamic Research Centre Education & Welfare Trust
+                  </h1>
+                  <p class="fs-5 text-white mb-4 pb-2">
+                    Is A Registered NGO / Non-Profit Organization.
                   </p>
                   <a
                     href=""
@@ -187,7 +266,7 @@
     <!-- Carousel End -->
 
     <!-- Service Start -->
-    <div id="about" class="container-xxl py-5">
+    <div class="container-xxl py-5">
       <div class="container">
         <div class="row g-4">
           <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -196,8 +275,9 @@
                 <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
                 <h5 class="mb-3">Skilled Instructors</h5>
                 <p>
-                  Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                  amet diam
+                  Islamic Research Centre Education & Welfare Trust (IRC) is a
+                  Registered NGO / Non-profit organization, established in 2001.
+                  Adv. Faiz Syed is its founder and president.
                 </p>
               </div>
             </div>
@@ -208,8 +288,10 @@
                 <i class="fa fa-3x fa-globe text-primary mb-4"></i>
                 <h5 class="mb-3">Online Classes</h5>
                 <p>
-                  Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                  amet diam
+                  IRC aims to convey the true message of Islam (Peace) to
+                  humanity with wisdom & beautiful preaching, removing
+                  misconceptions about Islam among the masses and to provide
+                  social and welfare assistance to poor and needy.
                 </p>
               </div>
             </div>
@@ -220,8 +302,10 @@
                 <i class="fa fa-3x fa-home text-primary mb-4"></i>
                 <h5 class="mb-3">Home Projects</h5>
                 <p>
-                  Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                  amet diam
+                  IRC uses modern technology for its activities, the message of
+                  peace, as transmitted by IRC reaches millions of people
+                  worldwide through the internet, satellite television and the
+                  print media.
                 </p>
               </div>
             </div>
@@ -232,8 +316,10 @@
                 <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
                 <h5 class="mb-3">Book Library</h5>
                 <p>
-                  Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                  amet diam
+                  IRC TV is a humble effort of Adv. Faiz Syed, through which he
+                  aims to propagate the Message of true Islam through practical
+                  demonstration of the Islamic values of peace, love, kindness,
+                  toleration, education and charity.
                 </p>
               </div>
             </div>
@@ -244,7 +330,7 @@
     <!-- Service End -->
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div id="about" class="container-xxl py-5">
       <div class="container">
         <div class="row g-5">
           <div
@@ -254,8 +340,8 @@
           >
             <div class="position-relative h-100">
               <img
-                class="img-fluid position-absolute w-100 h-100"
-                src="img/about.jpg"
+                class="img-fluid position-absolute w-50 h-100"
+                src="./assets/AdvfaizSyed.png"
                 alt=""
                 style="object-fit: cover"
               />
@@ -265,15 +351,21 @@
             <h6 class="section-title bg-white text-start text-primary pe-3">
               About Us
             </h6>
-            <h1 class="mb-4">Welcome to eLEARNING</h1>
+            <h1 class="mb-4">FOUNDER - ADV. FAIZ SYED</h1>
             <p class="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit.
+              Adv. Faiz Syed, the Founder & President of IRC, is an
+              internationally acclaimed Indian Islamic speaker, intellectual and
+              educationalist. With over 1500 Urdu lectures to his credit (which
+              are usually followed by open Q & A sessions), he is an influential
+              figure amongst today’s Muslim youth, spouses, parents and
+              educationalists - who aim to lead this life successfully,
+              simultaneously preparing for their Aakhirah.
             </p>
             <p class="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-              diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
-              lorem sit clita duo justo magna dolore erat amet
+              IRC TV is a humble effort of Adv. Faiz Syed, through which he aims
+              to propagate the Message of true Islam through practical
+              demonstration of the Islamic values of peace, love, kindness,
+              toleration, education and charity.
             </p>
             <div class="row gy-2 gx-4 mb-4">
               <div class="col-sm-6">
@@ -334,19 +426,19 @@
             <div class="row g-3">
               <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
                 <a class="position-relative d-block overflow-hidden" href="">
-                  <img class="img-fluid" src="img/cat-1.jpg" alt="" />
+                  <img class="img-fluid" src="./assets/0(1).jpg" alt="" />
                   <div
                     class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                     style="margin: 1px"
                   >
-                    <h5 class="m-0">Web Design</h5>
-                    <small class="text-primary">49 Courses</small>
+                    <h5 class="m-0">Academic</h5>
+                    <small class="text-primary">Courses</small>
                   </div>
                 </a>
               </div>
               <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
                 <a class="position-relative d-block overflow-hidden" href="">
-                  <img class="img-fluid" src="img/cat-2.jpg" alt="" />
+                  <img class="img-fluid" src="./assets/0(2).jpg" alt="" />
                   <div
                     class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                     style="margin: 1px"
@@ -358,7 +450,7 @@
               </div>
               <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
                 <a class="position-relative d-block overflow-hidden" href="">
-                  <img class="img-fluid" src="img/cat-3.jpg" alt="" />
+                  <img class="img-fluid" src="./assets/0(3).jpg" alt="" />
                   <div
                     class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                     style="margin: 1px"
@@ -378,7 +470,7 @@
             <a class="position-relative d-block h-100 overflow-hidden" href="">
               <img
                 class="img-fluid position-absolute w-100 h-100"
-                src="img/cat-4.jpg"
+                src="./assets/0(4).jpg"
                 alt=""
                 style="object-fit: cover"
               />
@@ -782,13 +874,18 @@
           <div class="col-lg-3 col-md-6">
             <h4 class="text-white mb-3">Contact</h4>
             <p class="mb-2">
-              <i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA
+              <i class="fa fa-map-marker-alt me-3"></i>H.No 1-23-100, Rohila
+              Gali, Aurangabad – 431001, Maharashtra, India
             </p>
             <p class="mb-2">
-              <i class="fa fa-phone-alt me-3"></i>+012 345 67890
+              <i class="fa fa-phone-alt me-3"></i> +91-80-5545-5545
             </p>
             <p class="mb-2">
-              <i class="fa fa-envelope me-3"></i>info@example.com
+              <i class="fa fa-building"></i> Office Timing 9:30 am – 6:30 pm
+              (all days except Sunday 9:30 am - 1:30 pm)
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i> islam@irc-india.com
             </p>
             <div class="d-flex pt-2">
               <a class="btn btn-outline-light btn-social" href=""
@@ -805,7 +902,17 @@
               ></a>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-6 col0md-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.8054757916825!2d75.32913441482673!3d19.890434231035364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb980e46b963cb%3A0x1979c94170b4b3c!2sIslamic+Research+Centre!5e0!3m2!1sen!2sin!4v1461593794047"
+              width="100%"
+              height="300"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+          <!-- <div class="col-lg-3 col-md-6">
             <h4 class="text-white mb-3">Gallery</h4>
             <div class="row g-2 pt-2">
               <div class="col-4">
@@ -851,24 +958,7 @@
                 />
               </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h4 class="text-white mb-3">Newsletter</h4>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-            <div class="position-relative mx-auto" style="max-width: 400px">
-              <input
-                class="form-control border-0 w-100 py-3 ps-4 pe-5"
-                type="text"
-                placeholder="Your email"
-              />
-              <button
-                type="button"
-                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
-              >
-                SignUp
-              </button>
-            </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="container">
@@ -902,7 +992,9 @@
     <!-- Footer End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+    <a
+      href="index.html"
+      class="btn btn-lg btn-primary btn-lg-square back-to-top"
       ><i class="bi bi-arrow-up"></i
     ></a>
 
